@@ -6,13 +6,12 @@ import About from "./About";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App/>} />
         <Route path="/about" element={<About/>}/>
       </Routes>
-
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
